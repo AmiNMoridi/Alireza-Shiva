@@ -17,27 +17,26 @@
     --gold-line:rgba(197,160,74,.42);
     --cream:#f6efdd;
     --cream-2:#efe5cd;
-    /* رنگ متن‌ها: سفید — هاله دور حروف: مشکی */
     --ink:#ffffff;
     --ink-soft:#f6f1e7;
     --accent:#ffffff;
     --env-w:min(440px,86vw);
-    /* هاله‌ی مشکی فوق‌قوی دور حروف — ۸ لایه‌ی نور */
+    /* هاله‌ی مشکی فوق‌قوی — ۸ لایه تا ۸۴ پیکسل */
     --halo:
-      0 0 2px  rgba(0,0,0,.98),
-      0 0 6px  rgba(0,0,0,.96),
-      0 0 11px rgba(0,0,0,.93),
-      0 0 17px rgba(0,0,0,.9),
-      0 0 24px rgba(0,0,0,.84),
-      0 0 34px rgba(0,0,0,.72),
-      0 0 48px rgba(0,0,0,.56),
-      0 0 64px rgba(0,0,0,.4);
+      0 0 2px  rgba(0,0,0,1),
+      0 0 7px  rgba(0,0,0,.98),
+      0 0 13px rgba(0,0,0,.96),
+      0 0 20px rgba(0,0,0,.93),
+      0 0 30px rgba(0,0,0,.88),
+      0 0 44px rgba(0,0,0,.78),
+      0 0 62px rgba(0,0,0,.62),
+      0 0 84px rgba(0,0,0,.45);
     --halo-soft:
-      0 0 2px  rgba(0,0,0,.98),
-      0 0 7px  rgba(0,0,0,.94),
-      0 0 14px rgba(0,0,0,.88),
-      0 0 24px rgba(0,0,0,.74),
-      0 0 38px rgba(0,0,0,.52);
+      0 0 2px  rgba(0,0,0,1),
+      0 0 8px  rgba(0,0,0,.96),
+      0 0 16px rgba(0,0,0,.92),
+      0 0 28px rgba(0,0,0,.8),
+      0 0 44px rgba(0,0,0,.6);
     --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
     --scene:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1400 900'%3E%3Cdefs%3E%3CradialGradient id='b' cx='50%25' cy='30%25' r='80%25'%3E%3Cstop offset='0' stop-color='%231c2c21'/%3E%3Cstop offset='.55' stop-color='%23101a14'/%3E%3Cstop offset='1' stop-color='%230a0f0b'/%3E%3C/radialGradient%3E%3CradialGradient id='g' cx='50%25' cy='50%25' r='50%25'%3E%3Cstop offset='0' stop-color='%23f0d79a' stop-opacity='.95'/%3E%3Cstop offset='.45' stop-color='%23c8a24a' stop-opacity='.4'/%3E%3Cstop offset='1' stop-color='%23c8a24a' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='1400' height='900' fill='url(%23b)'/%3E%3Cpath d='M-20,50 Q340,160 700,70 T1420,80' fill='none' stroke='%23c8a24a' stroke-opacity='.35' stroke-width='1.4'/%3E%3Cg%3E%3Ccircle cx='80' cy='84' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='80' cy='84' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='210' cy='122' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='210' cy='122' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='350' cy='141' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='350' cy='141' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='490' cy='122' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='490' cy='122' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='630' cy='88' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='630' cy='88' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='770' cy='72' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='770' cy='72' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='910' cy='86' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='910' cy='86' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1050' cy='96' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1050' cy='96' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1190' cy='86' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1190' cy='86' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1330' cy='76' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1330' cy='76' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3C/g%3E%3Ccircle cx='180' cy='330' r='22' fill='url(%23g)' opacity='.18'/%3E%3Ccircle cx='420' cy='240' r='14' fill='url(%23g)' opacity='.22'/%3E%3Ccircle cx='980' cy='300' r='26' fill='url(%23g)' opacity='.15'/%3E%3Ccircle cx='1240' cy='380' r='16' fill='url(%23g)' opacity='.2'/%3E%3Ccircle cx='700' cy='480' r='18' fill='url(%23g)' opacity='.12'/%3E%3Ccircle cx='1180' cy='620' r='20' fill='url(%23g)' opacity='.1'/%3E%3Ccircle cx='260' cy='560' r='16' fill='url(%23g)' opacity='.12'/%3E%3Ccircle cx='560' cy='640' r='12' fill='url(%23g)' opacity='.1'/%3E%3Cg id='fl'%3E%3Cg fill='none' stroke='%237d9a7d' stroke-opacity='.4' stroke-width='1.6'%3E%3Cpath d='M40,910 C120,800 90,720 150,640'/%3E%3Cpath d='M110,880 C170,820 200,760 260,720'/%3E%3C/g%3E%3Cg fill='%236f8a6f' opacity='.35'%3E%3Cellipse cx='105' cy='760' rx='16' ry='6' transform='rotate(-40 105 760)'/%3E%3Cellipse cx='170' cy='690' rx='18' ry='6' transform='rotate(-30 170 690)'/%3E%3Cellipse cx='215' cy='770' rx='14' ry='5' transform='rotate(-55 215 770)'/%3E%3C/g%3E%3Cg stroke='%239a7b3f' fill='none' opacity='.5' stroke-width='1.4'%3E%3Ccircle cx='160' cy='640' r='15'/%3E%3Cpath d='M160,631 C168,633 170,642 163,646 C156,649 150,642 154,636'/%3E%3Ccircle cx='255' cy='715' r='11'/%3E%3Cpath d='M255,708 C261,710 262,717 257,720 C252,722 248,717 251,713'/%3E%3C/g%3E%3C/g%3E%3Cuse href='%23fl' transform='translate(1400,0) scale(-1,1)'/%3E%3Cg fill='none' stroke='%236f8a6f' stroke-opacity='.35' stroke-width='1.4'%3E%3Cpath d='M180,-10 C170,60 200,110 180,170'/%3E%3Cpath d='M1240,-10 C1255,70 1225,120 1250,190'/%3E%3C/g%3E%3Cg fill='%236f8a6f' opacity='.3'%3E%3Cellipse cx='172' cy='50' rx='12' ry='4' transform='rotate(-35 172 50)'/%3E%3Cellipse cx='196' cy='105' rx='12' ry='4' transform='rotate(30 196 105)'/%3E%3Cellipse cx='176' cy='150' rx='10' ry='4' transform='rotate(-25 176 150)'/%3E%3Cellipse cx='1252' cy='60' rx='12' ry='4' transform='rotate(35 1252 60)'/%3E%3Cellipse cx='1228' cy='120' rx='12' ry='4' transform='rotate(-30 1228 120)'/%3E%3Cellipse cx='1246' cy='170' rx='10' ry='4' transform='rotate(25 1246 170)'/%3E%3C/g%3E%3C/svg%3E");
   }
@@ -168,16 +167,16 @@
   }
   body.boot .env-flap{ opacity:1; }
 
-  /* ---------- مهر لاکی ---------- */
+  /* ---------- مهر لاکی — بیرون از لبه، روی همه‌ی لایه‌ها ---------- */
   .seal{
-    position:absolute; left:50%; top:52%;
+    position:absolute; left:50%; top:calc(50% + var(--env-w)*.02);
     transform:translate(-50%,-50%) scale(0);
     width:min(76px,19vw); aspect-ratio:1;
     background:none; border:none; cursor:pointer;
     pointer-events:auto; touch-action:manipulation; user-select:none;
     transition:transform .4s cubic-bezier(.2,1.5,.4,1) .75s, opacity .3s;
     opacity:0;
-    z-index:5;
+    z-index:6;
   }
   body.boot .seal{ opacity:1; transform:translate(-50%,-50%) scale(1); }
   .seal:hover{ transform:translate(-50%,-50%) scale(1.06); transition:transform .25s ease; }
@@ -243,14 +242,13 @@
     transition:transform 1s cubic-bezier(.33,.72,.18,1), opacity .25s ease;
     background-color:#241b12;
   }
-  /* لایه‌ی عکس: کمی تار — جدا از محتوا تا متن شارپ بماند */
   .card-bg{
     position:absolute; inset:0; z-index:0;
     background-size:cover;
     background-position:center 35%;
     background-repeat:no-repeat;
     filter:blur(4px);
-    transform:scale(1.08);              /* پوشاندن لبه‌های تار */
+    transform:scale(1.08);
   }
 
   .paper-wrap{
@@ -329,7 +327,7 @@
   @keyframes cuebob{ 50%{ transform:translateY(4px); } }
 
   .orn{ display:block; margin:0 auto 6px; width:110px; height:10px;
-    filter:drop-shadow(0 0 2px rgba(0,0,0,.95)) drop-shadow(0 0 6px rgba(0,0,0,.85)) drop-shadow(0 0 14px rgba(0,0,0,.55)); }
+    filter:drop-shadow(0 0 3px rgba(0,0,0,1)) drop-shadow(0 0 8px rgba(0,0,0,.9)) drop-shadow(0 0 18px rgba(0,0,0,.6)); }
   .orn line{ stroke:var(--gold-light); stroke-width:1.2; }
   .orn rect{ fill:var(--gold-light); }
   .orn.sm{ width:84px; opacity:.92; }
@@ -342,12 +340,14 @@
   }
   .kicker::before,.kicker::after{
     content:''; width:34px; height:1px; background:rgba(255,255,255,.85);
-    box-shadow:0 0 3px rgba(0,0,0,1), 0 0 8px rgba(0,0,0,.85);
+    box-shadow:0 0 3px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,.9);
   }
 
   .names{ margin:clamp(6px,1.5vw,14px) 0 4px; }
 
-  /* اسم‌ها: سفید + هاله‌ی مشکی + درخشش طلایی متحرک */
+  /* اسم‌ها: سفید با هاله‌ی مشکی + نوار درخشش طلایی متحرک
+     (نسخه‌ی طلاییِ اسم با clip-path باریک از روی اسم سُر می‌خورد —
+      سازگار با همه‌ی مرورگرها، برخلاف background-clip:text) */
   .nm{
     position:relative; display:block;
     font:400 clamp(2.2rem,6.2vw,3.4rem)/1.5 'Gulzar',serif;
@@ -355,34 +355,28 @@
   }
   .nm.shine::after{
     content:attr(data-text);
-    position:absolute; inset:0;
-    background:linear-gradient(105deg,
-      rgba(255,255,255,0) 36%,
-      rgba(255,240,200,.25) 44%,
-      rgba(255,226,150,1)   50%,
-      rgba(255,240,200,.25) 56%,
-      rgba(255,255,255,0) 64%);
-    background-size:230% 100%;
-    background-repeat:no-repeat;
-    -webkit-background-clip:text; background-clip:text;
-    color:transparent; -webkit-text-fill-color:transparent;
-    filter:drop-shadow(0 0 6px rgba(255,214,130,.75));
-    animation:nm-shine 3.6s ease-in-out infinite;
+    position:absolute; inset:0; line-height:inherit;
+    color:#ffe9b8;
+    text-shadow:
+      0 0 5px  rgba(255,228,150,.95),
+      0 0 13px rgba(255,205,110,.8),
+      0 0 26px rgba(255,190,80,.5);
+    clip-path: inset(-40% 102% -40% -30%);
+    animation: nm-shine 3.4s ease-in-out infinite;
     pointer-events:none;
   }
+  .nm.shine.d2::after{ animation-delay:1.7s; }
   @keyframes nm-shine{
-    0%       { background-position:215% 0; }
-    52%      { background-position:-115% 0; }
-    100%     { background-position:-115% 0; }
+    0%   { clip-path: inset(-40% 102% -40% -30%); }
+    60%  { clip-path: inset(-40% -38% -40% 110%); }
+    100% { clip-path: inset(-40% -38% -40% 110%); }
   }
-  /* درخشش دو اسم پشت‌سرهم، نه هم‌زمان */
-  .nm.shine.d2::after{ animation-delay:1.8s; }
 
   .va{ display:flex; align-items:center; justify-content:center; gap:12px;
     font:400 clamp(1.1rem,2.8vw,1.35rem)/1.4 'Gulzar',serif; color:var(--accent); text-shadow:var(--halo-soft); }
   .va i{
     width:30px; height:1px; background:rgba(255,255,255,.85);
-    box-shadow:0 0 3px rgba(0,0,0,1), 0 0 8px rgba(0,0,0,.85);
+    box-shadow:0 0 3px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,.9);
   }
 
   .invite{
@@ -393,7 +387,7 @@
   .invite .vline{ display:block; }
   .sep{
     width:60px; height:1px; background:rgba(255,255,255,.85);
-    box-shadow:0 0 3px rgba(0,0,0,1), 0 0 8px rgba(0,0,0,.85);
+    box-shadow:0 0 3px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,.9);
     margin:clamp(12px,2.5vw,20px) auto;
   }
   .dt{ font:400 clamp(1.4rem,4vw,1.8rem)/1.8 'Gulzar',serif; color:var(--ink); text-shadow:var(--halo); }
@@ -408,12 +402,16 @@
   .cu i{ font-style:normal; font-size:10.5px; font-weight:700; color:var(--ink-soft); text-shadow:var(--halo-soft); }
   .cdot{
     width:4px; height:4px; background:var(--gold-light); transform:rotate(45deg); opacity:.9;
-    box-shadow:0 0 3px rgba(0,0,0,1), 0 0 8px rgba(0,0,0,.8);
+    box-shadow:0 0 3px rgba(0,0,0,1), 0 0 9px rgba(0,0,0,.85);
   }
   .over-msg{ font:400 1.25rem/1.8 'Gulzar',serif; color:var(--accent); text-shadow:var(--halo-soft); margin-top:12px; }
 
   .vn{ font:400 clamp(1.3rem,3.8vw,1.65rem)/1.8 'Gulzar',serif; color:var(--ink); text-shadow:var(--halo); }
-  .addr{ font-size:clamp(12px,2.1vw,13px); font-weight:600; color:var(--ink-soft); margin-top:2px; line-height:1.9; text-shadow:var(--halo-soft); }
+  /* آدرس (فومن...) — بزرگ‌تر شد */
+  .addr{
+    font-size:clamp(14px,3vw,17px); font-weight:700; color:var(--ink);
+    margin-top:4px; line-height:1.95; text-shadow:var(--halo-soft);
+  }
 
   .acts{ display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:9px 12px; margin-top:16px; }
   .btn{
@@ -493,13 +491,14 @@
     <div class="envelope" id="envelope">
       <div class="env-layer env-back" id="envBack"></div>
       <div class="env-layer env-front"></div>
-      <div class="env-layer env-flap" id="flap">
-        <button class="seal" id="seal" aria-label="گشودن دعوت‌نامه">
-          <span class="pulse"></span>
-          <span class="shard l"><span class="wax"></span><span class="mono" id="mgL"></span></span>
-          <span class="shard r"><span class="wax"></span><span class="mono" id="mgR"></span></span>
-        </button>
-      </div>
+      <div class="env-layer env-flap" id="flap"></div>
+
+      <!-- مهر لاکی: خارج از لبه — دیگر هیچ برشی آن را نمی‌پوشاند -->
+      <button class="seal" id="seal" aria-label="گشودن دعوت‌نامه">
+        <span class="pulse"></span>
+        <span class="shard l"><span class="wax"></span><span class="mono" id="mgL"></span></span>
+        <span class="shard r"><span class="wax"></span><span class="mono" id="mgR"></span></span>
+      </button>
     </div>
 
     <article class="card" id="card">
@@ -584,7 +583,7 @@ const CONFIG = {
   isoEnd:     '2026-10-22T19:30:00Z',
   countTarget: new Date('2026-10-22T14:30:00Z'),
   photo:      'photo.jpg',
-  photoBlur:  4,        /* میزان تاری عکس (پیکسل) — ۰ = بدون تاری */
+  photoBlur:  4,
   bgPhoto:    '',
   rain: {
     duration:   9000,
@@ -610,7 +609,7 @@ const safe = fn => { try{ fn(); }catch(e){ /* هیچ خطایی نباید تو�
 const monoStr = `${CONFIG.bride[0]} و ${CONFIG.groom[0]}`;
  $('bism').textContent  = CONFIG.opening;
  $('nmB').textContent   = CONFIG.bride;
- $('nmB').dataset.text  = CONFIG.bride;      /* برای افکت درخشش */
+ $('nmB').dataset.text  = CONFIG.bride;      /* متن نسخه‌ی درخشان */
  $('nmG').textContent   = CONFIG.groom;
  $('nmG').dataset.text  = CONFIG.groom;
  $('invite').innerHTML  = CONFIG.invite
@@ -636,7 +635,7 @@ if (CONFIG.photo){
   cardBg.style.backgroundImage = `url("${CONFIG.photo}")`;
   if (CONFIG.photoBlur) cardBg.style.filter = `blur(${CONFIG.photoBlur}px)`;
   const probe = new Image();
-  probe.onerror = () => cardBg.style.display = 'none';   /* عکس نبود؟ زمینه‌ی تیره می‌ماند */
+  probe.onerror = () => cardBg.style.display = 'none';
   probe.src = CONFIG.photo;
 }
 if (CONFIG.bgPhoto){
