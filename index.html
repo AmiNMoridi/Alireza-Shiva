@@ -12,17 +12,16 @@
   :root{
     --bg:#0f1511;
     --gold:#c8a24a;
-    --gold-dark:#7a6130;      /* تزئینات تیره — هماهنگ با متن مشکی */
+    --gold-dark:#7a6130;
     --gold-dim:#8f7332;
     --gold-line:rgba(197,160,74,.42);
     --cream:#f6efdd;
     --cream-2:#efe5cd;
-    /* رنگ متن‌ها: مشکی — هاله دور حروف: سفید */
+    /* متن مشکی — هاله سفید */
     --ink:#000000;
     --ink-soft:#262626;
     --accent:#000000;
     --env-w:min(440px,86vw);
-    /* هاله‌ی سفید قوی — ۴ لایه‌ی بهینه */
     --halo:
       0 0 3px  rgba(255,255,255,1),
       0 0 12px rgba(255,255,255,.96),
@@ -33,7 +32,7 @@
       0 0 11px rgba(255,255,255,.94),
       0 0 26px rgba(255,255,255,.72);
     --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
-    --scene:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1400 900'%3E%3Cdefs%3E%3CradialGradient id='b' cx='50%25' cy='30%25' r='80%25'%3E%3Cstop offset='0' stop-color='%231c2c21'/%3E%3Cstop offset='.55' stop-color='%23101a14'/%3E%3Cstop offset='1' stop-color='%230a0f0b'/%3E%3C/radialGradient%3E%3CradialGradient id='g' cx='50%25' cy='50%25' r='50%25'%3E%3Cstop offset='0' stop-color='%23f0d79a' stop-opacity='.95'/%3E%3Cstop offset='.45' stop-color='%23c8a24a' stop-opacity='.4'/%3E%3Cstop offset='1' stop-color='%23c8a24a' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='1400' height='900' fill='url(%23b)'/%3E%3Cpath d='M-20,50 Q340,160 700,70 T1420,80' fill='none' stroke='%23c8a24a' stroke-opacity='.35' stroke-width='1.4'/%3E%3Cg%3E%3Ccircle cx='80' cy='84' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='80' cy='84' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='210' cy='122' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='210' cy='122' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='350' cy='141' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='350' cy='141' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='490' cy='122' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='490' cy='122' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='630' cy='88' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='630' cy='88' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='770' cy='72' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='770' cy='72' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='910' cy='86' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='910' cy='86' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1050' cy='96' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1050' cy='96' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1190' cy='86' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1190' cy='86' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1330' cy='76' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1330' cy='76' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3C/g%3E%3Ccircle cx='180' cy='330' r='22' fill='url(%23g)' opacity='.18'/%3E%3Ccircle cx='420' cy='240' r='14' fill='url(%23g)' opacity='.22'/%3E%3Ccircle cx='980' cy='300' r='26' fill='url(%23g)' opacity='.15'/%3E%3Ccircle cx='1240' cy='380' r='16' fill='url(%23g)' opacity='.2'/%3E%3Ccircle cx='700' cy='480' r='18' fill='url(%23g)' opacity='.12'/%3E%3Ccircle cx='1180' cy='620' r='20' fill='url(%23g)' opacity='.1'/%3E%3Ccircle cx='260' cy='560' r='16' fill='url(%23g)' opacity='.12'/%3E%3Ccircle cx='560' cy='640' r='12' fill='url(%23g)' opacity='.1'/%3E%3Cg id='fl'%3E%3Cg fill='none' stroke='%237d9a7d' stroke-opacity='.4' stroke-width='1.6'%3E%3Cpath d='M40,910 C120,800 90,720 150,640'/%3E%3Cpath d='M110,880 C170,820 200,760 260,720'/%3E%3C/g%3E%3Cg fill='%236f8a6f' opacity='.35'%3E%3Cellipse cx='105' cy='760' rx='16' ry='6' transform='rotate(-40 105 760)'/%3E%3Cellipse cx='170' cy='690' rx='18' ry='6' transform='rotate(-30 170 690)'/%3E%3Cellipse cx='215' cy='770' rx='14' ry='5' transform='rotate(-55 215 770)'/%3E%3C/g%3E%3Cg stroke='%239a7b3f' fill='none' opacity='.5' stroke-width='1.4'%3E%3Ccircle cx='160' cy='640' r='15'/%3E%3Cpath d='M160,631 C168,633 170,642 163,646 C156,649 150,642 154,636'/%3E%3Ccircle cx='255' cy='715' r='11'/%3E%3Cpath d='M255,708 C261,710 262,717 257,720 C252,722 248,717 251,713'/%3E%3C/g%3E%3C/g%3E%3Cuse href='%23fl' transform='translate(1400,0) scale(-1,1)'/%3E%3Cg fill='none' stroke='%236f8a6f' stroke-opacity='.35' stroke-width='1.4'%3E%3Cpath d='M180,-10 C170,60 200,110 180,170'/%3E%3Cpath d='M1240,-10 C1255,70 1225,120 1250,190'/%3E%3C/g%3E%3Cg fill='%236f8a6f' opacity='.3'%3E%3Cellipse cx='172' cy='50' rx='12' ry='4' transform='rotate(-35 172 50)'/%3E%3Cellipse cx='196' cy='105' rx='12' ry='4' transform='rotate(30 196 105)'/%3E%3Cellipse cx='176' cy='150' rx='10' ry='4' transform='rotate(-25 176 150)'/%3E%3Cellipse cx='1252' cy='60' rx='12' ry='4' transform='rotate(35 1252 60)'/%3E%3Cellipse cx='1228' cy='120' rx='12' ry='4' transform='rotate(-30 1228 120)'/%3E%3Cellipse cx='1246' cy='170' rx='10' ry='4' transform='rotate(25 1246 170)'/%3E%3C/g%3E%3C/svg%3E";
+    --scene:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1400 900'%3E%3Cdefs%3E%3CradialGradient id='b' cx='50%25' cy='30%25' r='80%25'%3E%3Cstop offset='0' stop-color='%231c2c21'/%3E%3Cstop offset='.55' stop-color='%23101a14'/%3E%3Cstop offset='1' stop-color='%230a0f0b'/%3E%3C/radialGradient%3E%3CradialGradient id='g' cx='50%25' cy='50%25' r='50%25'%3E%3Cstop offset='0' stop-color='%23f0d79a' stop-opacity='.95'/%3E%3Cstop offset='.45' stop-color='%23c8a24a' stop-opacity='.4'/%3E%3Cstop offset='1' stop-color='%23c8a24a' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='1400' height='900' fill='url(%23b)'/%3E%3Cpath d='M-20,50 Q340,160 700,70 T1420,80' fill='none' stroke='%23c8a24a' stroke-opacity='.35' stroke-width='1.4'/%3E%3Cg%3E%3Ccircle cx='80' cy='84' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='80' cy='84' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='210' cy='122' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='210' cy='122' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='350' cy='141' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='350' cy='141' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='490' cy='122' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='490' cy='122' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='630' cy='88' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='630' cy='88' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='770' cy='72' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='770' cy='72' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='910' cy='86' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='910' cy='86' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1050' cy='96' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1050' cy='96' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1190' cy='86' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1190' cy='86' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3Ccircle cx='1330' cy='76' r='12' fill='url(%23g)' opacity='.5'/%3E%3Ccircle cx='1330' cy='76' r='2.6' fill='%23f7e7b8' opacity='.95'/%3E%3C/g%3E%3Ccircle cx='180' cy='330' r='22' fill='url(%23g)' opacity='.18'/%3E%3Ccircle cx='420' cy='240' r='14' fill='url(%23g)' opacity='.22'/%3E%3Ccircle cx='980' cy='300' r='26' fill='url(%23g)' opacity='.15'/%3E%3Ccircle cx='1240' cy='380' r='16' fill='url(%23g)' opacity='.2'/%3E%3Ccircle cx='700' cy='480' r='18' fill='url(%23g)' opacity='.12'/%3E%3Ccircle cx='1180' cy='620' r='20' fill='url(%23g)' opacity='.1'/%3E%3Ccircle cx='260' cy='560' r='16' fill='url(%23g)' opacity='.12'/%3E%3Ccircle cx='560' cy='640' r='12' fill='url(%23g)' opacity='.1'/%3E%3Cg id='fl'%3E%3Cg fill='none' stroke='%237d9a7d' stroke-opacity='.4' stroke-width='1.6'%3E%3Cpath d='M40,910 C120,800 90,720 150,640'/%3E%3Cpath d='M110,880 C170,820 200,760 260,720'/%3E%3C/g%3E%3Cg fill='%236f8a6f' opacity='.35'%3E%3Cellipse cx='105' cy='760' rx='16' ry='6' transform='rotate(-40 105 760)'/%3E%3Cellipse cx='170' cy='690' rx='18' ry='6' transform='rotate(-30 170 690)'/%3E%3Cellipse cx='215' cy='770' rx='14' ry='5' transform='rotate(-55 215 770)'/%3E%3C/g%3E%3Cg stroke='%239a7b3f' fill='none' opacity='.5' stroke-width='1.4'%3E%3Ccircle cx='160' cy='640' r='15'/%3E%3Cpath d='M160,631 C168,633 170,642 163,646 C156,649 150,642 154,636'/%3E%3Ccircle cx='255' cy='715' r='11'/%3E%3Cpath d='M255,708 C261,710 262,717 257,720 C252,722 248,717 251,713'/%3E%3C/g%3E%3C/g%3E%3Cuse href='%23fl' transform='translate(1400,0) scale(-1,1)'/%3E%3Cg fill='none' stroke='%236f8a6f' stroke-opacity='.35' stroke-width='1.4'%3E%3Cpath d='M180,-10 C170,60 200,110 180,170'/%3E%3Cpath d='M1240,-10 C1255,70 1225,120 1250,190'/%3E%3C/g%3E%3Cg fill='%236f8a6f' opacity='.3'%3E%3Cellipse cx='172' cy='50' rx='12' ry='4' transform='rotate(-35 172 50)'/%3E%3Cellipse cx='196' cy='105' rx='12' ry='4' transform='rotate(30 196 105)'/%3E%3Cellipse cx='176' cy='150' rx='10' ry='4' transform='rotate(-25 176 150)'/%3E%3Cellipse cx='1252' cy='60' rx='12' ry='4' transform='rotate(35 1252 60)'/%3E%3Cellipse cx='1228' cy='120' rx='12' ry='4' transform='rotate(-30 1228 120)'/%3E%3Cellipse cx='1246' cy='170' rx='10' ry='4' transform='rotate(25 1246 170)'/%3E%3C/g%3E%3C/svg%3E");
   }
   *{ margin:0; padding:0; box-sizing:border-box; }
   html,body{ height:100%; }
@@ -59,7 +58,6 @@
   }
   body.settled .frame{ border-color:rgba(197,160,74,.6); }
 
-  /* ---------- دکمه‌ی موسیقی ---------- */
   .music{
     position:fixed; top:26px; left:26px; z-index:70;
     width:44px; height:44px; border-radius:50%;
@@ -87,7 +85,6 @@
   body.music-on .music .ic-play{ display:none; }
   body.music-on .music .eq{ display:flex; }
 
-  /* ---------- صحنه ---------- */
   .stage{ position:fixed; inset:0; z-index:10; perspective:1150px; }
   .world{ position:absolute; inset:0; transform-style:preserve-3d; }
 
@@ -113,7 +110,6 @@
   body.opening .cap, body.opening .hint{ opacity:0 !important; animation:none; transition-delay:0s; }
   @keyframes breathe{ 50%{ opacity:.4; } }
 
-  /* ---------- پاکت ---------- */
   .envelope{
     position:absolute; inset:0; pointer-events:none;
     transition:opacity .7s ease, visibility 0s .7s;
@@ -161,7 +157,6 @@
   }
   body.boot .env-flap{ opacity:1; }
 
-  /* ---------- مهر لاکی — بیرون از لبه، روی همه‌ی لایه‌ها ---------- */
   .seal{
     position:absolute; left:50%; top:calc(50% + var(--env-w)*.02);
     transform:translate(-50%,-50%) scale(0);
@@ -220,9 +215,6 @@
   body.opening .shard.l{ transform:translate(-15px,30px) rotate(-17deg); opacity:0; }
   body.opening .shard.r{ transform:translate(12px,34px) rotate(15deg); opacity:0; transition-delay:.12s; }
 
-  /* ==========================================================
-     نامه: عکسِ کمی‌تار زیر همه‌چیز | نوشته‌های مشکی با هاله‌ی سفید
-     ========================================================== */
   .card{
     position:absolute; left:50%; top:50%; z-index:2;
     width:min(640px,92vw);
@@ -234,7 +226,7 @@
     opacity:0;
     transform:translate(-50%,-50%) scale(var(--s,.4));
     transition:transform 1s cubic-bezier(.33,.72,.18,1), opacity .25s ease;
-    background-color:var(--cream-2);   /* اگر عکس نبود، زمینه‌ی روشن برای متن مشکی */
+    background-color:var(--cream-2);
   }
   .card-bg{
     position:absolute; inset:0; z-index:0;
@@ -285,7 +277,6 @@
     transition:transform 1.15s cubic-bezier(.22,.85,.2,1);
   }
 
-  /* ⚓ قفل حالت نهایی */
   body.done .card{
     opacity:1 !important;
     transform:translate(-50%,-50%) scale(1) !important;
@@ -351,10 +342,9 @@
     box-shadow:0 0 3px rgba(255,255,255,1), 0 0 10px rgba(255,255,255,.9);
   }
 
-  /* شعر — نستعلیق، مشکی با هاله‌ی سفید */
   .invite{
     font:400 clamp(17px,4vw,22px)/2.15 'Gulzar',serif;
-    color:var(--ink); max-width:44ch; margin:8px auto 0;
+    color:var(--ink); max-width:52ch; margin:8px auto 0;
     text-shadow:var(--halo);
   }
   .invite .vline{ display:block; }
@@ -448,8 +438,41 @@
     *{ animation-duration:.01ms !important; transition-duration:.01ms !important; animation-delay:0s !important; transition-delay:0s !important; }
   }
 </style>
+<script>
+/* 🛡 نگهبان مستقل — به اسکریپت اصلی وابسته نیست.
+   اگر اسکریپت اصلی خطا بدهد، بعد از ۲.۵ ثانیه کارت اجباری نمایش داده می‌شود
+   و متن خطا پایین صفحه چاپ می‌شود تا بتوانیم مشکل را پیدا کنیم. */
+(function(){
+  var errMsg = '';
+  window.addEventListener('error', function(e){ errMsg = (e && e.message) ? e.message : 'نامشخص'; });
+  setTimeout(function(){
+    try{
+      var b = document.body;
+      if (b && b.className.indexOf('boot') === -1){
+        b.className += ' opening settled done instant';
+        var c = document.getElementById('card');
+        if (c) c.className += ' emerge full revealed';
+      }
+      if (errMsg){
+        var t = document.getElementById('toast');
+        if (t){ t.textContent = 'خطا در اجرا: ' + errMsg; t.className += ' show'; }
+      }
+    }catch(_){}
+  }, 2500);
+})();
+</script>
 </head>
 <body>
+
+<noscript>
+<style>
+  /* اگر جاوااسکریپت غیرفعال باشد: کارت با متن کامل مستقیم نمایش داده می‌شود */
+  .envelope,.music,.cap,.hint,#fx,#fxtop{ display:none !important; }
+  .card{ opacity:1 !important; transform:translate(-50%,-50%) scale(1) !important; }
+  .card .rv{ opacity:1 !important; transform:none !important; }
+  .stage{ perspective:none; }
+</style>
+</noscript>
 
 <audio id="bgm" loop preload="auto"></audio>
 
@@ -559,11 +582,10 @@ const CONFIG = {
   groom:      'علیرضا',
   families:   ['اجاقلو', 'رمضان نژاد'],
   opening:    'به نامِ خداوندِ عشق',
+  /* شعر — دو سطر */
   invite: [
-    'آغاز یک مسیر عاشقانه',
-    'در شبی که عشق کامل می‌شود',
-    'در پیوندی افسانه‌وار',
-    'با حضور سراسر افتخارِ شما',
+    'آغاز یک مسیر عاشقانه در شبی که عشق کامل می‌شود',
+    'در پیوندی افسانه‌وار با حضور سراسر افتخارِ شما',
   ],
   meal:       'به صرف شام',
   dateLabel:  'پنجشنبه ۳۰ مهر ۱۴۰۵',
@@ -571,7 +593,6 @@ const CONFIG = {
   venue:      'تالار کاخ ایرونی',
   address:    'فومن، کیلومتر ۳ جاده صومعه‌سرا',
   mapUrl:     'https://nshn.ir/rbWqVKeBWIwj',
-  /* ۳۰ مهر ۱۴۰۵ = ۲۲ اکتبر ۲۰۲۶ — شروع ۱۷:۰۰ به‌وقت تهران */
   isoStart:   '2026-10-22T13:30:00Z',
   isoEnd:     '2026-10-22T19:30:00Z',
   countTarget: new Date('2026-10-22T13:30:00Z'),
@@ -599,14 +620,14 @@ const wait = ms => new Promise(r => setTimeout(r, ms));
 const safe = fn => { try{ fn(); }catch(e){} };
 
 /* ---------- پر کردن متن‌ها ---------- */
-const monoStr = `${CONFIG.bride[0]} و ${CONFIG.groom[0]}`;
+const monoStr = CONFIG.bride[0] + ' و ' + CONFIG.groom[0];
  $('bism').textContent  = CONFIG.opening;
  $('nmB').textContent   = CONFIG.bride;
  $('nmG').textContent   = CONFIG.groom;
  $('invite').innerHTML  = CONFIG.invite
-  .map(l => `<span class="vline">${l}</span>`).join('');
+  .map(function(l){ return '<span class="vline">' + l + '</span>'; }).join('');
  $('families').innerHTML = CONFIG.families
-  .map(f => `<span>${f}</span>`).join('<i></i>');
+  .map(function(f){ return '<span>' + f + '</span>'; }).join('<i></i>');
  $('dateLbl').textContent = CONFIG.dateLabel;
  $('meal').textContent    = CONFIG.meal;
  $('timeLbl').textContent = CONFIG.timeLabel;
@@ -615,7 +636,7 @@ const monoStr = `${CONFIG.bride[0]} و ${CONFIG.groom[0]}`;
  $('mgL').textContent = $('mgR').textContent = monoStr;
  $('mapBtn').href = CONFIG.mapUrl;
 
-/* ---------- عکس کارت و پس‌زمینه‌ی صفحه ---------- */
+/* ---------- عکس کارت و پس‌زمینه ---------- */
 const card    = $('card');
 const cardBg  = $('cardBg');
 const paper   = $('paper');
@@ -626,15 +647,15 @@ const world   = $('world');
 const cue     = $('scrollCue');
 
 if (CONFIG.photo){
-  cardBg.style.backgroundImage = `url("${CONFIG.photo}")`;
-  if (CONFIG.photoBlur) cardBg.style.filter = `blur(${CONFIG.photoBlur}px)`;
+  cardBg.style.backgroundImage = 'url("' + CONFIG.photo + '")';
+  if (CONFIG.photoBlur) cardBg.style.filter = 'blur(' + CONFIG.photoBlur + 'px)';
   const probe = new Image();
-  probe.onerror = () => cardBg.style.display = 'none';
+  probe.onerror = function(){ cardBg.style.display = 'none'; };
   probe.src = CONFIG.photo;
 }
 if (CONFIG.bgPhoto){
   scene.style.backgroundImage =
-    `linear-gradient(rgba(10,15,11,.72), rgba(10,15,11,.72)), url("${CONFIG.bgPhoto}")`;
+    'linear-gradient(rgba(10,15,11,.72), rgba(10,15,11,.72)), url("' + CONFIG.bgPhoto + '")';
 }
 
 /* ---------- اندازه‌گیری انیمیشن کارت ---------- */
@@ -658,16 +679,16 @@ function toast(msg){
   toastEl.textContent = msg;
   toastEl.classList.add('show');
   clearTimeout(toastT);
-  toastT = setTimeout(() => toastEl.classList.remove('show'), 2400);
+  toastT = setTimeout(function(){ toastEl.classList.remove('show'); }, 2400);
 }
 
 /* ---------- نشانگر ادامه ---------- */
 function showScrollCue(){
-  requestAnimationFrame(() => {
+  requestAnimationFrame(function(){
     if (paper.scrollHeight > paper.clientHeight + 12) cue.classList.add('show');
   });
 }
-paper.addEventListener('scroll', () => cue.classList.remove('show'), { passive:true });
+paper.addEventListener('scroll', function(){ cue.classList.remove('show'); }, { passive:true });
 
 /* ---------- موسیقی زمینه ---------- */
 const bgm = $('bgm'), musicBtn = $('musicBtn');
@@ -678,7 +699,7 @@ let musicOn = false, musicFailed = false, announced = false, fadeT;
 function fadeTo(el, from, to, dur, done){
   clearInterval(fadeT);
   const t0 = performance.now();
-  fadeT = setInterval(() => {
+  fadeT = setInterval(function(){
     const k = Math.min(1, (performance.now() - t0) / dur);
     el.volume = Math.max(0, Math.min(1, from + (to - from) * k));
     if (k >= 1){ clearInterval(fadeT); if (done) done(); }
@@ -688,41 +709,41 @@ function startMusic(){
   if (musicOn || musicFailed) return;
   const p = bgm.play();
   if (p && p.then){
-    p.then(() => {
+    p.then(function(){
       musicOn = true;
       document.body.classList.add('music-on');
       fadeTo(bgm, 0, CONFIG.music.volume, 2600);
       if (!announced){ announced = true; toast('موسیقی: ' + CONFIG.music.title); }
-    }).catch(() => {});
+    }).catch(function(){});
   }
 }
-musicBtn.addEventListener('click', e => {
+musicBtn.addEventListener('click', function(e){
   e.stopPropagation();
   if (bgm.paused){
     startMusic();
   }else{
     musicOn = false;
     document.body.classList.remove('music-on');
-    fadeTo(bgm, bgm.volume, 0, 320, () => bgm.pause());
+    fadeTo(bgm, bgm.volume, 0, 320, function(){ bgm.pause(); });
   }
 });
-bgm.addEventListener('error', () => {
+bgm.addEventListener('error', function(){
   musicFailed = true;
   musicBtn.style.display = 'none';
   toast('پخش موسیقی ممکن نشد');
 });
 
 /* ---------- افکت‌های صوتی ظریف (WebAudio محلی) ---------- */
-const sfx = (() => {
+const sfx = (function(){
   let ctx;
-  const ensure = () => {
+  const ensure = function(){
     try{
       ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
       if (ctx.state === 'suspended') ctx.resume();
       return ctx;
     }catch(e){ return null; }
   };
-  const noise = (c,d) => {
+  const noise = function(c,d){
     const b = c.createBuffer(1, c.sampleRate * d, c.sampleRate), o = b.getChannelData(0);
     for (let i=0;i<o.length;i++) o[i] = Math.random()*2-1;
     return b;
@@ -748,7 +769,7 @@ const sfx = (() => {
   }
   function chime(){
     const c = ensure(); if(!c) return;
-    [523.25,659.25,783.99].forEach((fq,i) => {
+    [523.25,659.25,783.99].forEach(function(fq,i){
       const t = c.currentTime + i*.14;
       const o = c.createOscillator(); o.type='sine'; o.frequency.value=fq;
       const g = c.createGain(); g.gain.setValueAtTime(.0001,t);
@@ -757,13 +778,11 @@ const sfx = (() => {
       o.connect(g); g.connect(c.destination); o.start(t); o.stop(t+1.4);
     });
   }
-  return {crack,whoosh,chime};
+  return {crack:crack,whoosh:whoosh,chime:chime};
 })();
 
 /* ==========================================================
-     بوم‌ها — بهینه:
-     #fx    (زیر کارت): گلبرگ‌های زمینه‌ای
-     #fxtop (روی کارت): رگبار گل+نقل — فقط وقتی چیزی برای رسم هست
+     بوم‌ها — بهینه
    ========================================================== */
 const cvA = $('fx'),    cxA = cvA.getContext('2d');
 const cvB = $('fxtop'), cxB = cvB.getContext('2d');
@@ -771,19 +790,22 @@ let W, H, DPR;
 function sizeFx(){
   DPR = Math.min(devicePixelRatio || 1, 1.5);
   W = innerWidth; H = innerHeight;
-  for (const [c,x] of [[cvA,cxA],[cvB,cxB]]){
-    c.width = W*DPR; c.height = H*DPR;
-    x.setTransform(DPR,0,0,DPR,0,0);
-  }
+  cvA.width = W*DPR; cvA.height = H*DPR;
+  cxA.setTransform(DPR,0,0,DPR,0,0);
+  cvB.width = W*DPR; cvB.height = H*DPR;
+  cxB.setTransform(DPR,0,0,DPR,0,0);
 }
 sizeFx(); addEventListener('resize', sizeFx);
 
-const R = (a,b) => a + Math.random()*(b-a);
+const R = function(a,b){ return a + Math.random()*(b-a); };
 
-const petals = Array.from({length:18}, () => ({
-  x:R(0,1), y:R(0,1), r:R(1.6,3.4), rot:R(0,6.28), rv:R(-.9,.9),
-  vy:R(9,24), amp:R(8,26), fq:R(.3,.9), ph:R(0,6.28), a:R(.16,.45)
-}));
+const petals = [];
+for (let i=0;i<18;i++){
+  petals.push({
+    x:R(0,1), y:R(0,1), r:R(1.6,3.4), rot:R(0,6.28), rv:R(-.9,.9),
+    vy:R(9,24), amp:R(8,26), fq:R(.3,.9), ph:R(0,6.28), a:R(.16,.45)
+  });
+}
 function drawPetalBg(p, t){
   const x = p.x*W + Math.sin(t*p.fq + p.ph)*p.amp;
   cxA.save();
@@ -804,6 +826,7 @@ const rain = [];
 const RAIN_MAX = 170;
 const RAIN_COLORS = (CONFIG.rain && CONFIG.rain.colors) || ['#f2a7b8','#e88fa5','#f6efdd'];
 const NOGHL_TINTS = ['#ffffff','#fdf7ee','#fbeef2','#f5ecf6'];
+const NOGHL_RATIO = (CONFIG.rain && typeof CONFIG.rain.noghlRatio === 'number') ? CONFIG.rain.noghlRatio : .45;
 let rainUntil = 0, rainRate = 0, rainAcc = 0, topActive = false;
 
 function petalRain(duration, rate){
@@ -819,7 +842,7 @@ function spawnRainPetal(){
     amp:R(14,44), fq:R(.5,1.5), ph:R(0,6.28),
     flip:R(2.2,5.5), fph:R(0,6.28),
     life:0, maxLife:R(6,10),
-    c:RAIN_COLORS[Math.random()*RAIN_COLORS.length|0]
+    c:RAIN_COLORS[Math.floor(Math.random()*RAIN_COLORS.length)]
   });
 }
 function spawnNoghl(){
@@ -831,7 +854,7 @@ function spawnNoghl(){
     amp:R(12,40), fq:R(.4,1.4), ph:R(0,6.28),
     flip:R(2,5.2), fph:R(0,6.28),
     life:0, maxLife:R(5,9),
-    c:NOGHL_TINTS[Math.random()*NOGHL_TINTS.length|0]
+    c:NOGHL_TINTS[Math.floor(Math.random()*NOGHL_TINTS.length)]
   });
 }
 function drawRainPetal(p, dt){
@@ -888,17 +911,18 @@ function burst(x, y, n, force){
     const ang = R(-Math.PI*.95, -Math.PI*.05);
     const sp  = R(force*.35, force);
     sparks.push({
-      x, y, vx:Math.cos(ang)*sp, vy:Math.sin(ang)*sp,
+      x:x, y:y, vx:Math.cos(ang)*sp, vy:Math.sin(ang)*sp,
       w:R(1.6,3.2), h:R(6,12), rot:R(0,6.28), rvp:R(-7,7),
       ph:R(0,6.28), life:R(1.1,1.8), age:0,
-      c:SPARK_COLORS[Math.random()*SPARK_COLORS.length|0]
+      c:SPARK_COLORS[Math.floor(Math.random()*SPARK_COLORS.length)]
     });
   }
 }
 
 function drawFx(dt, t){
   cxA.clearRect(0,0,W,H);
-  for (const p of petals){
+  for (let i=0;i<petals.length;i++){
+    const p = petals[i];
     p.y += p.vy*dt/H; p.rot += p.rv*dt;
     if (p.y > 1.04){ p.y = -.05; p.x = Math.random(); }
     drawPetalBg(p, t);
@@ -917,8 +941,9 @@ function drawFx(dt, t){
     rainAcc += eff * dt;
     while (rainAcc >= 1){
       rainAcc--;
-      if (rain.length < RAIN_MAX)
-        (Math.random() < (CONFIG.rain.noghlRatio ?? .45)) ? spawnNoghl() : spawnRainPetal();
+      if (rain.length < RAIN_MAX){
+        if (Math.random() < NOGHL_RATIO) spawnNoghl(); else spawnRainPetal();
+      }
     }
   }
   for (let i=rain.length-1;i>=0;i--){
@@ -947,7 +972,7 @@ function drawFx(dt, t){
 /* ---------- تیلت سه‌بعدی نرم ---------- */
 let tiltOn = true, tx=0, ty=0, rx=0, ry=0;
 if (matchMedia('(pointer:fine)').matches){
-  addEventListener('pointermove', e => {
+  addEventListener('pointermove', function(e){
     if (!tiltOn) return;
     tx =  (e.clientX/innerWidth  - .5) * 2;
     ty =  (e.clientY/innerHeight - .5) * 2;
@@ -960,7 +985,7 @@ let last = performance.now();
   if (tiltOn || Math.abs(rx) > .01 || Math.abs(ry) > .01){
     const gx = tiltOn ? tx*6 : 0, gy = tiltOn ? ty*5 : 0;
     rx += (gx-rx)*.07; ry += (gy-ry)*.07;
-    world.style.transform = `rotateY(${rx.toFixed(3)}deg) rotateX(${(-ry).toFixed(3)}deg)`;
+    world.style.transform = 'rotateY(' + rx.toFixed(3) + 'deg) rotateX(' + (-ry).toFixed(3) + 'deg)';
   }
   drawFx(dt, now/1000);
   requestAnimationFrame(loop);
@@ -981,14 +1006,15 @@ function tickCount(){
   if (!box) return;
   const s = Math.floor(d/1000);
   const vals = [Math.floor(s/86400), Math.floor(s/3600)%24, Math.floor(s/60)%60, s%60];
-  [['cD',0],['cH',1],['cM',2],['cS',3]].forEach(([id,i]) => {
-    const el = $(id); if (!el) return;
+  const ids = ['cD','cH','cM','cS'];
+  for (let i=0;i<4;i++){
+    const el = $(ids[i]); if (!el) continue;
     const txt = i===0 ? toFa(vals[i]) : pad2(vals[i]);
     if (el.textContent !== txt){
       el.textContent = txt;
       el.classList.remove('tick'); void el.offsetWidth; el.classList.add('tick');
     }
-  });
+  }
 }
 cdI = setInterval(tickCount, 1000); tickCount();
 
@@ -1006,56 +1032,55 @@ function forceFinal(){
   showScrollCue();
 }
 
-async function open(){
+function open(){
   if (opened) return;
   opened = true;
   openedAt = performance.now();
-  try{
-    tiltOn = false;
-    document.body.classList.add('opening');
-    safe(() => sfx.crack());
-    safe(() => startMusic());
+  tiltOn = false;
+  document.body.classList.add('opening');
+  safe(sfx.crack);
+  safe(startMusic);
 
-    await wait(520);  safe(() => flap.classList.add('open'));
-    await wait(480);  safe(() => flap.classList.add('down'));
+  setTimeout(function(){ safe(function(){ flap.classList.add('open'); }); }, 520);
+  setTimeout(function(){ safe(function(){ flap.classList.add('down'); }); }, 1000);
 
-    await wait(220);
-    safe(() => {
+  setTimeout(function(){
+    safe(function(){
       measure();
       const r = envBack.getBoundingClientRect();
       burst(r.left + r.width/2, r.top + r.height*.2, 28, 420);
-      sfx.whoosh();
+      safe(sfx.whoosh);
       card.classList.add('emerge');
       petalRain(CONFIG.rain.duration, CONFIG.rain.rate);
     });
+  }, 1220);
 
-    await wait(1080);
-    safe(() => {
+  setTimeout(function(){
+    safe(function(){
       document.body.classList.add('settled');
       card.classList.add('full');
       const r = card.getBoundingClientRect();
       burst(r.left + r.width/2, r.top + r.height*.3, 16, 300);
     });
+  }, 2300);
 
-    await wait(420);
-    safe(() => {
+  setTimeout(function(){
+    safe(function(){
       card.classList.add('revealed');
       document.body.classList.add('done');
-      sfx.chime();
+      safe(sfx.chime);
       petalRain(CONFIG.rain.duration*.8, CONFIG.rain.rate*.8);
       showScrollCue();
     });
     finalForced = true;
-  }catch(e){
-    forceFinal();
-  }
+  }, 2720);
 }
 
  $('seal').addEventListener('click', open);
  $('envelope').addEventListener('click', open);
 
-/* نگهبان */
-setInterval(() => {
+/* نگهبان داخلی */
+setInterval(function(){
   if (!opened || finalForced) return;
   const late   = performance.now() - openedAt > 4200;
   const broken =
@@ -1065,17 +1090,17 @@ setInterval(() => {
   if (late && broken) forceFinal();
 }, 250);
 
-document.addEventListener('visibilitychange', () => {
+document.addEventListener('visibilitychange', function(){
   if (!document.hidden && opened && performance.now() - openedAt > 2600) forceFinal();
 });
 
-requestAnimationFrame(() => requestAnimationFrame(() => {
+requestAnimationFrame(function(){ requestAnimationFrame(function(){
   document.body.classList.add('boot');
   measure();
-}));
+}); });
 
 /* ---------- دکمه‌های کارت ---------- */
- $('icsBtn').addEventListener('click', () => {
+ $('icsBtn').addEventListener('click', function(){
   const ics = [
     'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Wedding//FA','BEGIN:VEVENT',
     'UID:' + Date.now() + '@wedding',
@@ -1084,29 +1109,36 @@ requestAnimationFrame(() => requestAnimationFrame(() => {
     'DTEND:'    + CONFIG.isoEnd.replace(/[-:]/g,''),
     'SUMMARY:جشن عروسی ' + CONFIG.bride + ' و ' + CONFIG.groom,
     'LOCATION:' + CONFIG.venue + '، ' + CONFIG.address,
-    'DESCRIPTION:' + CONFIG.invite.join('\\n'),
+    'DESCRIPTION:' + CONFIG.invite.join(' | '),
     'END:VEVENT','END:VCALENDAR'
   ].join('\r\n');
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([ics], {type:'text/calendar'}));
   a.download = 'wedding-invitation.ics';
   a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  setTimeout(function(){ URL.revokeObjectURL(a.href); }, 4000);
   toast('فایل تقویم ذخیره شد');
 });
 
- $('copyBtn').addEventListener('click', async () => {
+ $('copyBtn').addEventListener('click', function(){
   const text = CONFIG.venue + ' — ' + CONFIG.address;
-  try{
-    await navigator.clipboard.writeText(text);
-    toast('نشانی کپی شد');
-  }catch(e){
-    const ta = document.createElement('textarea');
-    ta.value = text; document.body.appendChild(ta);
-    ta.select(); document.execCommand('copy'); ta.remove();
-    toast('نشانی کپی شد');
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(
+      function(){ toast('نشانی کپی شد'); },
+      function(){ fallbackCopy(text); }
+    );
+  }else{
+    fallbackCopy(text);
   }
 });
+function fallbackCopy(text){
+  const ta = document.createElement('textarea');
+  ta.value = text; document.body.appendChild(ta);
+  ta.select();
+  try{ document.execCommand('copy'); toast('نشانی کپی شد'); }
+  catch(e){ toast('کپی نشد — دستی کپی کنید'); }
+  ta.remove();
+}
 </script>
 </body>
 </html>
